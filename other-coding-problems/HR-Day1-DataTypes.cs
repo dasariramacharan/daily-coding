@@ -24,7 +24,7 @@ namespace ConsoleApp1
             // Print the sum of both integer variables on a new line.
             Console.WriteLine(i + i2);
             // Print the sum of the double variables on a new line.
-            Console.WriteLine($"{d + d2:N2}");
+            Console.WriteLine($"{d + d2:N1}");
             // Concatenate and print the String variables on a new line
             // The 's' variable above should be printed first.
             Console.WriteLine(s + s2);
