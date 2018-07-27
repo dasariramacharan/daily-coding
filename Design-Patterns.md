@@ -14,7 +14,11 @@ Cloud Design Patterns
      deployed and scaled independently.The filters in a pipeline can be implemented as separate hosted tasks 
      running close to the data that they maintain.
      
-3.   CQRS -Command And Query Responsibility segregation Pattern
+3.  CQRS -Command And Query Responsibility segregation Pattern
      Segregate operations that read data from operations that update data by using separate interfaces. 
 
-4.   
+4.  Circuit Breaker pattern
+    Handle faults that might take a variable amount of time to recover from, when connecting to a remote service or resource. 
+    This can improve the stability and resiliency of an application.
+
+5.
