@@ -22,6 +22,7 @@ Cloud Design Patterns
     This can improve the stability and resiliency of an application.
 
 Availability patterns
+
     1. Health Endpoint Monitoring pattern
        Implement functional checks in an application that external tools can access through exposed endpoints at regular intervals.
        
