@@ -21,9 +21,11 @@ Cloud Design Patterns
     Handle faults that might take a variable amount of time to recover from, when connecting to a remote service or resource. 
     This can improve the stability and resiliency of an application.
 
+
+
 Availability patterns
 
-    1. Health Endpoint Monitoring pattern
+1. Health Endpoint Monitoring pattern
        Implement functional checks in an application that external tools can access through exposed endpoints at regular intervals.
        
-    2.
+2.
