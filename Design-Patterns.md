@@ -28,4 +28,8 @@ Availability patterns
 1. Health Endpoint Monitoring pattern
        Implement functional checks in an application that external tools can access through exposed endpoints at regular intervals.
        
-2.
+2. Queue-Based Load Leveling	
+        Use a queue that acts as a buffer between a task and a service that it invokes in order to smooth intermittent heavy loads.
+
+3.Throttling	
+         Control the consumption of resources used by an instance of an application, an individual tenant, or an entire service.
