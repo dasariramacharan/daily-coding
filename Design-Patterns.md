@@ -13,9 +13,6 @@ Cloud Design Patterns
      This can improve performance, scalability, and reusability by allowing task elements that perform the processing to be
      deployed and scaled independently.The filters in a pipeline can be implemented as separate hosted tasks 
      running close to the data that they maintain.
-     
-3.  CQRS -Command And Query Responsibility segregation Pattern
-     Segregate operations that read data from operations that update data by using separate interfaces. 
 
 4.  Circuit Breaker pattern
     Handle faults that might take a variable amount of time to recover from, when connecting to a remote service or resource. 
@@ -31,5 +28,22 @@ Availability patterns
 2. Queue-Based Load Leveling	
         Use a queue that acts as a buffer between a task and a service that it invokes in order to smooth intermittent heavy loads.
 
-3.Throttling	
+3. Throttling	
          Control the consumption of resources used by an instance of an application, an individual tenant, or an entire service.
+
+
+
+Data Management patterns
+
+1. Cache-Aside	Load data on demand into a cache from a data store 
+
+2. CQRS -Command And Query Responsibility segregation Pattern
+     Segregate operations that read data from operations that update data by using separate interfaces. 
+
+3. Event Sourcing
+     Use an append-only store to record the full series of events that describe actions taken on data in a domain.
+     
+4.     
+
+
+
