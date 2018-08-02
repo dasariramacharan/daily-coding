@@ -1,0 +1,51 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+class Solution
+{
+    static void Main(String[] args)
+    {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution */
+        var refs = new Dictionary<string, string>();
+        var refcount = Convert.ToInt32(Console.ReadLine());
+        var output = new List<string>();
+        var nf = "Not found";
+        var inp = "test";
+        for (int i = 0; i < refcount; i++)
+        {
+            var cur = Console.ReadLine().Split(' ');
+            refs.Add(cur[0], cur[1]);
+        }
+        inp = Console.ReadLine();
+        do
+        {
+            if (inp == null){
+                break;
+            }
+                
+            if (refs.ContainsKey(inp))
+            {
+                output.Add(inp);
+            }
+            else
+            {
+                output.Add(nf);
+            }
+            inp = Console.ReadLine();
+        } while (inp != null);
+
+        for (int i = 0; i < output.Count; i++)
+        {
+            if (output[i] != nf)
+            {
+                Console.WriteLine($"{output[i]}={refs[output[i]]}");
+            }
+            else
+            {
+                Console.WriteLine(nf);
+            }
+        }
+
+        //Console.Read();
+    }
+}
