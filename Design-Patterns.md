@@ -43,7 +43,8 @@ Data Management patterns
 3. Event Sourcing
      Use an append-only store to record the full series of events that describe actions taken on data in a domain.
      
-4.     
+4. Index Table
+      Create indexes over the fields in data stores that are frequently referenced by queries.    
 
 
 
