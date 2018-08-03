@@ -46,5 +46,8 @@ Data Management patterns
 4. Index Table
       Create indexes over the fields in data stores that are frequently referenced by queries.    
 
-
+5. Materialized View	
+       Generate prepopulated views over the data in one or more data stores when the data isn't ideally formatted for required query operations.
+       
+       
 
