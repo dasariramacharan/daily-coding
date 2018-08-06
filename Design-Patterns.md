@@ -48,6 +48,8 @@ Data Management patterns
 
 5. Materialized View	
        Generate prepopulated views over the data in one or more data stores when the data isn't ideally formatted for required query operations.
-       
+
+6.Sharding	
+        Divide a data store into a set of horizontal partitions or shards.
        
 
