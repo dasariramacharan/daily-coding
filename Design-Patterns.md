@@ -53,4 +53,5 @@ Data Management patterns
         Divide a data store into a set of horizontal partitions or shards. 
         Strategies to do create select shard key and distribute it are a)The Lookup strategy b)The Range strategy c)The Hash strategy.  
        
-7.
+7.Static Content Hosting pattern
+        Deploy static content to a cloud-based storage service that can deliver them directly to the client.  
