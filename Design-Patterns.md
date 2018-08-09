@@ -50,6 +50,7 @@ Data Management patterns
        Generate prepopulated views over the data in one or more data stores when the data isn't ideally formatted for required query operations.
 
 6.Sharding	
-        Divide a data store into a set of horizontal partitions or shards.
+        Divide a data store into a set of horizontal partitions or shards. 
+        Strategies to do create select shard key and distribute it are a)The Lookup strategy b)The Range strategy c)The Hash strategy.  
        
-
+7.
