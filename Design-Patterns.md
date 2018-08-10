@@ -49,9 +49,19 @@ Data Management patterns
 5. Materialized View	
        Generate prepopulated views over the data in one or more data stores when the data isn't ideally formatted for required query operations.
 
-6.Sharding	
+6. Sharding	 
         Divide a data store into a set of horizontal partitions or shards. 
         Strategies to do create select shard key and distribute it are a)The Lookup strategy b)The Range strategy c)The Hash strategy.  
        
-7.Static Content Hosting pattern
+7. Static Content Hosting pattern
         Deploy static content to a cloud-based storage service that can deliver them directly to the client.  
+
+8. Valet Key pattern 
+        Use a token or key that provides clients with restricted direct access to a specific resource or service (when using Static Content Hosting pattern).
+        
+ 
+ 
+ 
+        
+        
+        
