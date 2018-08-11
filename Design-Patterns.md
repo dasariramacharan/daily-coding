@@ -60,7 +60,10 @@ Data Management patterns
         Use a token or key that provides clients with restricted direct access to a specific resource or service (when using Static Content Hosting pattern).
         
  
+ Messaging patterns
  
+ 1.Competing Consumers	
+        Enable multiple concurrent consumers to process messages received on the same messaging channel.
  
         
         
