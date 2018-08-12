@@ -18,7 +18,8 @@ Cloud Design Patterns
     Handle faults that might take a variable amount of time to recover from, when connecting to a remote service or resource. 
     This can improve the stability and resiliency of an application.
 
-
+5.  Backends for Frontends	
+      Create separate backend services to be consumed by specific frontend applications or interfaces.
 
 Availability patterns
 
