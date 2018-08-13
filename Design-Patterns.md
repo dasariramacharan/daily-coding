@@ -70,7 +70,8 @@ Data Management patterns
 4. Queue-Based Load Leveling	
      Use a queue that acts as a buffer between a task and a service that it invokes in order to smooth intermittent heavy loads.
      
-     
+5. Scheduler Agent Supervisor	
+     Coordinate a set of actions across a distributed set of services and other remote resources.     
      
 `
 
