@@ -8,11 +8,6 @@ Cloud Design Patterns
     Undo the work performed by a series of steps, which together define an eventually consistent operation, if one or more of the steps fail.
     https://docs.microsoft.com/en-us/azure/architecture/patterns/compensating-transaction
     
-2.  Pipes and Filters pattern
-     Decompose a task that performs complex processing into a series of separate elements that can be reused. 
-     This can improve performance, scalability, and reusability by allowing task elements that perform the processing to be
-     deployed and scaled independently.The filters in a pipeline can be implemented as separate hosted tasks 
-     running close to the data that they maintain.
 
 4.  Circuit Breaker pattern
     Handle faults that might take a variable amount of time to recover from, when connecting to a remote service or resource. 
@@ -66,6 +61,20 @@ Data Management patterns
  1.Competing Consumers	
         Enable multiple concurrent consumers to process messages received on the same messaging channel.
  
-        
+2.  Pipes and Filters pattern
+     Decompose a task that performs complex processing into a series of separate elements that can be reused. 
+      
+3.  Priority Queue	
+     Prioritize requests sent to services so that requests with a higher priority are received and processed more quickly than those with a lower priority.
+
+4. Queue-Based Load Leveling	
+     Use a queue that acts as a buffer between a task and a service that it invokes in order to smooth intermittent heavy loads.
+     
+     
+     
+`
+
+
+
         
         
