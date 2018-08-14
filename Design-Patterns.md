@@ -13,9 +13,6 @@ Cloud Design Patterns
     Handle faults that might take a variable amount of time to recover from, when connecting to a remote service or resource. 
     This can improve the stability and resiliency of an application.
 
-5.  Backends for Frontends	
-      Create separate backend services to be consumed by specific frontend applications or interfaces.
-
 Availability patterns
 
 1. Health Endpoint Monitoring pattern
@@ -85,8 +82,11 @@ Design and Implementation patterns
 2.Anti-Corruption Layer	
       Implement a façade or adapter layer between a modern application and a legacy system.
 
+3. Backends for Frontends	
+      Create separate backend services to be consumed by specific frontend applications or interfaces.
 
-
+4. Compute Resource Consolidation	
+       Consolidate multiple tasks or operations into a single computational unit.
 
 
 
