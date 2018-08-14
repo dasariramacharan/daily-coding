@@ -73,9 +73,14 @@ Data Management patterns
 5. Scheduler Agent Supervisor	
      Coordinate a set of actions across a distributed set of services and other remote resources.     
      
-`
+Design and Implementation patterns
+                Good design encompasses factors such as consistency and coherence in component design and deployment, maintainability to simplify administration and development, and reusability to allow components and subsystems to be used in other applications and in other scenarios.
+                
+1. Ambassador
+     Create helper services that send network requests on behalf of a consumer service or application.
+
+2.
 
 
 
-        
         
