@@ -72,9 +72,9 @@ Data Management patterns
 
 
 Design and Implementation patterns
-
-                Good design encompasses factors such as consistency and coherence in component design and deployment, maintainability to simplify administration and development, and reusability to allow components and subsystems to be used in other applications and in other scenarios.
-
+      Good design encompasses factors such as consistency and coherence in component design and deployment, maintainability to simplify
+administration and development, and reusability to allow components and subsystems to be used in other applications and in other
+scenarios.
 
 1. Ambassador
      Create helper services that send network requests on behalf of a consumer service or application.
@@ -88,8 +88,10 @@ Design and Implementation patterns
 4. Compute Resource Consolidation	
        Consolidate multiple tasks or operations into a single computational unit.
 
+5. External Configuration Store	
+       Move configuration information out of the application deployment package to a centralized location.
 
-
+6.
 
 
         
