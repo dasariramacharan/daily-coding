@@ -95,7 +95,8 @@ scenarios.
        Use a gateway to aggregate multiple individual requests into a single request.
       
 7.Gateway Offloading	
-        Offload shared or specialized service functionality to a gateway proxy.       
+     Offload shared or specialized service functionality to a gateway proxy.       
 
-
+8.Gateway Routing	
+     Route requests to multiple services using a single endpoint.
         
