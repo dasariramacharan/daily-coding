@@ -91,7 +91,11 @@ scenarios.
 5. External Configuration Store	
        Move configuration information out of the application deployment package to a centralized location.
 
-6.
+6. Gateway Aggregation	
+       Use a gateway to aggregate multiple individual requests into a single request.
+      
+7.Gateway Offloading	
+        Offload shared or specialized service functionality to a gateway proxy.       
 
 
         
