@@ -100,3 +100,5 @@ scenarios.
 8.Gateway Routing	
      Route requests to multiple services using a single endpoint.
         
+7.Leader Election
+       Coordinate the actions performed by a collection of collaborating task instances in a distributed application by electing one instance as the leader that assumes responsibility for managing the other instances.
