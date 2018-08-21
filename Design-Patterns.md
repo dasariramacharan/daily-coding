@@ -125,9 +125,8 @@ Performance and Scalability patterns
          9. Static Content Hosting	
         10. Throttling
 
-
-
-
+Resiliency patterns
+         1. Bulkhead
 
 
 
