@@ -106,5 +106,5 @@ scenarios.
 8.Sidecar / Sidekick pattern
         It's a decomposition pattern . Deploy components of an application into a separate process or container to provide isolation and encapsulation.
      
-        
+9. Strangler	Incrementally migrate a legacy system by gradually replacing specific pieces of functionality with new applications and services.        
         
