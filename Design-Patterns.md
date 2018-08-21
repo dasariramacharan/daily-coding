@@ -108,3 +108,40 @@ scenarios.
      
 9. Strangler	Incrementally migrate a legacy system by gradually replacing specific pieces of functionality with new applications and services.        
         
+
+
+Performance and Scalability patterns
+          Performance is an indication of the responsiveness of a system to execute any action within a given time interval, 
+          while scalability is ability of a system either to handle increases in load without impact on performance or for the available resources to be readily increased. 
+          
+         1. Cache-Aside	 
+         2. CQRS	
+         3. Event Sourcing	 
+         4. Index Table	 
+         5. Materialized View	 
+         6. Priority Queue	 
+         7. Queue-Based Load Leveling	 
+         8. Sharding	 
+         9. Static Content Hosting	
+        10. Throttling
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
