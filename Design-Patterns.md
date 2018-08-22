@@ -127,20 +127,12 @@ Performance and Scalability patterns
 
 Resiliency patterns
          1. Bulkhead
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+         2. Circuit Breaker
+         3. Compensating Transaction	 
+         4. Health Endpoint Monitoring	
+         5. Leader Election	 
+         6. Queue-Based Load Leveling	 
+         7. Retry	 
+         8. Scheduler Agent Supervisor	
 
 
