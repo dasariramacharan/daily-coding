@@ -126,6 +126,7 @@ Performance and Scalability patterns
         10. Throttling
 
 Resiliency patterns
+
          1. Bulkhead
          2. Circuit Breaker
          3. Compensating Transaction	 
@@ -135,4 +136,22 @@ Resiliency patterns
          7. Retry	 
          8. Scheduler Agent Supervisor	
 
-
+Security patterns
+         1.Federated Identity
+           Delegate authentication to an external identity provider.
+         2. 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
