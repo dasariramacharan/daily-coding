@@ -15,7 +15,7 @@ Cloud Design Patterns
 
 Availability patterns
 
-1. Health Endpoint Monitoring pattern
+1. H2ealth Endpoint Monitoring pattern
        Implement functional checks in an application that external tools can access through exposed endpoints at regular intervals.
        
 2. Queue-Based Load Leveling	
@@ -29,7 +29,7 @@ Availability patterns
 Data Management patterns
 
 1. Cache-Aside	Load data on demand into a cache from a data store 
-
+2
 2. CQRS -Command And Query Responsibility segregation Pattern
      Segregate operations that read data from operations that update data by using separate interfaces. 
 
@@ -143,6 +143,12 @@ Security patterns
   2.Gatekeeper	
             Protect applications and services by using a dedicated host instance that acts as a broker between clients and the application or service, validates and sanitizes requests, and passes requests and data between them.
   
+  3.Valet Key pattern 
+  
+  
+  Performance antipatterns for cloud applications
+    1.Busy Database	
+                Offloading too much processing to a data store.     
   
   
   
@@ -155,5 +161,3 @@ Security patterns
   
   
   
-  
-0
