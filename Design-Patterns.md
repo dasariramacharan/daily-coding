@@ -147,10 +147,11 @@ Security patterns
   
   
   Performance antipatterns for cloud applications
+  
     1.Busy Database	
                 Offloading too much processing to a data store.     
   
-  
+    2.Busy Front End	Moving resource-intensive tasks onto background threads.
   
   
   
