@@ -152,7 +152,7 @@ Security patterns
                 Offloading too much processing to a data store.     
   
     2.Busy Front End	Moving resource-intensive tasks onto background threads.
-  
+    More at https://docs.microsoft.com/en-us/azure/architecture/antipatterns/ 
   
   
   
